@@ -25,7 +25,7 @@
   (fullscreen? [this]
     (Display/isFullscreen)))
 
-(defmethod create-surface :LWJGL [settings]
+(defmethod create-surface "lwjgl" [settings]
   (LWJGLSurface.))
 
 
